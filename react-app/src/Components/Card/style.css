@@ -1,0 +1,29 @@
+.card {
+    width: 420px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .card > p {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .remove-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 2px 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .remove-btn:hover {
+    color: rgb(242, 17, 17);
+  }

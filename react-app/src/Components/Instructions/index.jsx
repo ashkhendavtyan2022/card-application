@@ -11,5 +11,5 @@ export const Instructions = () => {
             
             <p>Press an X icon on the top right to delete them.</p>
         </div>
-    )
-}
+    );
+};

@@ -1,22 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Footer } from './Components/Footer';
+import { AppProvider } from './Context/Context';
 import { Instructions } from './Components/Instructions';
-import { Main } from './Components/Main';
+import { Project } from './Components/Project';
 
 function App() {
 
   return (
-    <div className="App">
-      <div className="app-main">
-        <Main />
-        <Footer />
+    <AppProvider>
+      <div className="App">
+        <Project />
+       <Instructions />        
       </div>
-      <div className="app-intructions">
-        <Instructions />
-      </div>
-      
-    </div>
+    </AppProvider>
   );
 }
 

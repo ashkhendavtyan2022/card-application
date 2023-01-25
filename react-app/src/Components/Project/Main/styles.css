@@ -1,0 +1,15 @@
+.main {
+    width: 100%;
+    height: calc(100% - 110px);
+    overflow-y: auto;
+}
+
+.main-wrapper {
+    width: 70%;
+    height: 100%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
